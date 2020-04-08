@@ -69,7 +69,7 @@ public class NhanVien {
         System.out.println("Tuoi: " + tuoi);
         System.out.println("Dia chi: " + diachi);
         System.out.println("Tien luong: " + (int)tienluong);
-        System.out.println("Tong gio lam: " + tonggiolam);
+        System.out.println("Tong gio lam: " + tonggiolam + "\n");
         //return null;
     }
     
