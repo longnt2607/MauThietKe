@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package baitap1;
+package baitap1; // bài tập 1 và 2 làm chung trong package baitap1
 
 /**
  *
