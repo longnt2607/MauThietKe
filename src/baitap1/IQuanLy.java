@@ -10,6 +10,6 @@ package baitap1;
  * @author long
  */
 public interface IQuanLy {
-    public void them(NhanVien nv);
-    public void inDS();
+    void them(NhanVien nv);
+    void inDS();
 }

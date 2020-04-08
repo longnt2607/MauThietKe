@@ -81,10 +81,30 @@ public class NhanVien {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        NhanVien nv1 = new NhanVien("Nguyen Truong Long", 21, "Ninh Hoa, Khanh Hoa, Viet Nam", 8000000, 250);
+        
+        /*NhanVien nv1 = new NhanVien("Nguyen Truong Long", 21, "Ninh Hoa, Khanh Hoa, Viet Nam", 8000000, 250);
         NhanVien nv2 = new NhanVien("Scarlett Johansson", 35, " Manhattan, New York, America", 16000000, 120);
         
         nv1.getThongTin();
-        nv2.getThongTin();
+        nv2.getThongTin();*/
+        
+        QuanLyNhanVien qlnv = new QuanLyNhanVien();
+        
+        // khởi tạo 5 nhân viên
+        NhanVien nv1 = new NhanVien("Nguyen Truong Long", 21, "Ninh Hoa, Khanh Hoa, Viet Nam", 8000000, 250);
+        NhanVien nv2 = new NhanVien("Scarlett Johansson", 35, " Manhattan, New York, America", 16000000, 120);
+        NhanVien nv3 = new NhanVien("Uzumaki Naruto", 16, "Yamashina, Kyoto, Japan", 4000000, 80);
+        NhanVien nv4 = new NhanVien("Stephen Chow", 57, "HongKong, China", 10000000, 100);
+        NhanVien nv5 = new NhanVien("Karen Mok", 49, "HongKong, China", 8000000, 220);
+        
+        // thêm 5 nhân viên vào danh sách
+        qlnv.them(nv1);
+        qlnv.them(nv2);
+        qlnv.them(nv3);
+        qlnv.them(nv4);
+        qlnv.them(nv5);
+        
+        // in danh sách nhân viên ra màn hình
+        qlnv.inDS();
     }
 }
